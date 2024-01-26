@@ -458,12 +458,19 @@ header .button {
 #google {
   padding: 50px 0;
 }
-#google .row {
-  height: 70px;
+#google .box {
+  width: 250px;
 }
 #google .box .imgbox {
-  width: 150px;
+  width: 180px;
+  margin: auto;
 }
-#google .minibox .imgbox {
+#google .bmg .imgbox {
   width: 110px;
+  margin: auto;
+}
+@media screen and (max-width: 575px) {
+  #google .box {
+    margin: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
