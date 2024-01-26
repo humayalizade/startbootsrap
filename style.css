@@ -453,4 +453,17 @@ header .button {
   #team .box {
     margin: 40px 0;
   }
+}
+
+#google {
+  padding: 50px 0;
+}
+#google .row {
+  height: 70px;
+}
+#google .box .imgbox {
+  width: 150px;
+}
+#google .minibox .imgbox {
+  width: 110px;
 }/*# sourceMappingURL=style.css.map */
