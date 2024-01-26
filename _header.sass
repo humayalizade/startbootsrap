@@ -1,0 +1,50 @@
+header
+    height: 75px
+    position: fixed
+    z-index: 1
+    background: #212529
+    .menu
+        padding-top: 20px
+        padding-bottom: 20px
+    .imgbox
+        width: 185px
+    nav
+        a
+            font-size: 20px
+            color: #d8c8c8
+            margin-left: 20px
+            &:hover
+                color: #f5cd19
+    .button
+        display: none
+    @media screen and ( max-width:992px)
+        .button
+            display: flex
+            justify-content: space-evenly
+            align-items: center
+            width: 80px
+            height: 30px
+            border: 1px solid #9e9d9d
+            border-radius: 7px
+            p
+                color: #ffff
+        .icon
+            color: #ffff
+            font-size: 20px
+        .menu
+        nav
+            opacity: 0
+    @media screen and ( max-width:576px)
+        .button
+            p
+                font-size: 12px
+        .icon
+            font-size: 15px
+    @media screen and ( max-width:400px)
+        .menu
+            padding-top: 15px
+        .button
+            p
+                font-size: 10px
+        .icon
+            font-size: 10px
