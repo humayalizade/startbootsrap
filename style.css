@@ -481,7 +481,28 @@ header .button {
   background-color: #212529;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#contact .textbox {
+  text-align: center;
+}
+#contact .textbox h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+#contact .textbox h3 {
+  font-size: 20px;
+  color: #8b8484;
+  margin: 18px 0 53px 0;
+}
+#contact input {
+  font-size: 50px;
+  margin-bottom: 28px;
+}
+#contact .btn {
+  background-color: #d3c71e;
 }/*# sourceMappingURL=style.css.map */
