@@ -2,6 +2,8 @@ footer
     padding: 30px 0
     .textbox
         text-align: start
+        h3
+            font-size: 18px
     .col-lg-4
         text-align: center
     .btn
@@ -14,8 +16,17 @@ footer
             background: #424649
     .icon
         color: #ffff
-    .col-lg-4
+    .privcy
         display: flex
-    .privcy,.term
-        margin-right: 30px
-    
+        justify-content: flex-end
+        h4
+            font-size: 18px
+            margin-right: 10px
+    @media screen and ( max-width: 992px)
+        .textbox
+            text-align: center
+        .privcy
+            display: flex
+            justify-content: center
+        .col-lg-4
+            margin: 10px 0

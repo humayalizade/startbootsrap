@@ -523,6 +523,9 @@ footer {
 footer .textbox {
   text-align: start;
 }
+footer .textbox h3 {
+  font-size: 18px;
+}
 footer .col-lg-4 {
   text-align: center;
 }
@@ -539,9 +542,23 @@ footer .btn:hover {
 footer .icon {
   color: white;
 }
-footer .col-lg-4 {
+footer .privcy {
   display: flex;
+  justify-content: flex-end;
 }
-footer .privcy, footer .term {
-  margin-right: 30px;
+footer .privcy h4 {
+  font-size: 18px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 992px) {
+  footer .textbox {
+    text-align: center;
+  }
+  footer .privcy {
+    display: flex;
+    justify-content: center;
+  }
+  footer .col-lg-4 {
+    margin: 10px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
