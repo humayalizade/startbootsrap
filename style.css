@@ -480,6 +480,9 @@ header .button {
   background-image: url(assestt/map-image.png);
   background-color: #212529;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #contact .textbox {
   text-align: center;
@@ -495,6 +498,21 @@ header .button {
   margin: 18px 0 53px 0;
 }
 #contact input {
+  display: flex;
+  justify-content: flex-end;
   font-size: 50px;
   margin-bottom: 28px;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button .btn {
+  background-color: #b59211;
+  padding: 25px 58px;
+  opacity: 0.8;
+}
+#contact .button .btn h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
