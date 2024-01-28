@@ -375,6 +375,7 @@ header .button {
   background-image: url(assestt/map-image.png);
   background-color: #212529;
   background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -383,7 +384,7 @@ header .button {
   text-align: center;
 }
 #contact .textbox h1 {
-  font-size: 30px;
+  font-size: 45px;
   color: white;
   font-weight: 700;
 }
@@ -392,18 +393,20 @@ header .button {
   color: #8b8484;
   margin: 18px 0 53px 0;
 }
-#contact .textbox .button {
+#contact .button {
   text-align: center;
 }
-#contact .textbox input {
-  font-size: 20px;
+#contact input {
+  font-size: 30px;
+  padding: 15px 133px;
+  margin-bottom: 20px;
 }
-#contact .textbox .btn {
+#contact .btn {
   background-color: #b59211;
   padding: 25px 58px;
   opacity: 0.8;
 }
-#contact .textbox .btn h6 {
+#contact .btn h6 {
   font-size: 20px;
   font-weight: 700;
   color: white;
