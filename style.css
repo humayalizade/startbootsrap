@@ -77,7 +77,7 @@ header .button {
 }
 
 #welcome {
-  height: 150vh;
+  height: 650px;
   background-image: url(assestt/header-bg.jpg);
   background-size: cover;
   background-position: center center;
@@ -246,6 +246,34 @@ header .button {
   line-height: 1.4;
   margin: 24px 0 80px 0;
 }
+#about ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+#about ul .textbox {
+  width: 50%;
+  text-align: end;
+  padding: 0 20px 20px 100px;
+}
+#about ul .textbox h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+#about ul .textbox p {
+  font-size: 20px;
+  color: #857e7e;
+  line-height: 1.4;
+}
+#about ul .imgbox {
+  width: 170px;
+  height: 170px;
+  border: 6px solid #ddd5d5;
+  border-radius: 50%;
+  overflow: hidden;
+}
 
 #team {
   padding: 80px 0;
@@ -343,7 +371,7 @@ header .button {
 }
 
 #contact {
-  height: 120vh;
+  height: 100%;
   background-image: url(assestt/map-image.png);
   background-color: #212529;
   background-position: center;
@@ -355,7 +383,7 @@ header .button {
   text-align: center;
 }
 #contact .textbox h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   font-weight: 700;
 }
