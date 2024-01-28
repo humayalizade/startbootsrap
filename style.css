@@ -396,10 +396,18 @@ header .button {
 #contact .button {
   text-align: center;
 }
+#contact .from {
+  display: flex;
+  flex-direction: column;
+}
 #contact input {
-  font-size: 30px;
-  padding: 15px 133px;
-  margin-bottom: 20px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+#contact textarea {
+  padding: 20px;
+  border: 2px solid #d6d4d4;
+  border-radius: 5px;
 }
 #contact .btn {
   background-color: #b59211;
