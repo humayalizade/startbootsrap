@@ -17,6 +17,20 @@ header
                 color: #f5cd19
     .button
         display: none
+    @media screen and ( max-width:576px)
+        .button
+            p
+                font-size: 12px
+        .icon
+            font-size: 10px
+    @media screen and ( max-width:400px)
+        .menu
+            padding-top: 15px
+        .button
+            p
+                font-size: 10px
+        .icon
+            font-size: 5px
     @media screen and ( max-width:992px)
         .button
             display: flex
@@ -26,25 +40,12 @@ header
             height: 30px
             border: 1px solid #9e9d9d
             border-radius: 7px
+            opacity: 0.6
             p
                 color: #ffff
         .icon
             color: #ffff
-            font-size: 20px
+            font-size: 15px
         .menu
         nav
             opacity: 0
-    @media screen and ( max-width:576px)
-        .button
-            p
-                font-size: 12px
-        .icon
-            font-size: 15px
-    @media screen and ( max-width:400px)
-        .menu
-            padding-top: 15px
-        .button
-            p
-                font-size: 10px
-        .icon
-            font-size: 10px
