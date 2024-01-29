@@ -248,31 +248,136 @@ header .button {
 }
 #about ul li {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  height: 200px;
-}
-#about ul .textbox {
-  width: 50%;
-  text-align: end;
-  padding: 0 20px 20px 100px;
-}
-#about ul .textbox h2 {
-  font-size: 25px;
-  font-weight: 700;
-  margin: 15px 0;
-}
-#about ul .textbox p {
-  font-size: 20px;
-  color: #857e7e;
-  line-height: 1.4;
+  position: relative;
+  padding: 100px 0;
 }
 #about ul .imgbox {
-  width: 170px;
-  height: 170px;
-  border: 6px solid #ddd5d5;
+  width: 180px;
+  height: 180px;
+  border: 6px solid #e9ecef;
   border-radius: 50%;
   overflow: hidden;
+}
+#about ul .minibox {
+  width: 200px;
+  height: 200px;
+  width: 170px;
+  height: 170px;
+  border: 6px solid #e9ecef;
+  border-radius: 50%;
+  background: #ffc800;
+}
+#about ul .minibox h6 {
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+  margin: 35px 17px -27px 51px;
+  cursor: text;
+}
+#about ul .textbox {
+  width: 334px;
+}
+#about ul .textbox h2 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 10px 0 15px 0;
+}
+#about ul .textbox h5 {
+  font-size: 20px;
+  color: #797d8b;
+  font-weight: 500;
+  line-height: 1.6;
+}
+#about ul .txt {
+  text-align: right;
+  position: absolute;
+  top: 94px;
+  left: 43px;
+}
+#about ul .text {
+  position: absolute;
+  top: 94px;
+  right: 43px;
+}
+@media screen and (max-width: 992px) {
+  #about ul li {
+    padding: 150px 0;
+  }
+  #about ul li .imgbox {
+    width: 100px;
+    height: 100px;
+  }
+  #about ul li .minibox {
+    width: 100px;
+    height: 100px;
+  }
+  #about ul li .minibox h6 {
+    font-size: 15px;
+    margin: 11px 18px -8px 25px;
+  }
+  #about ul li .textbox {
+    width: 226px;
+  }
+  #about ul li .textbox h2 {
+    font-size: 30px;
+    margin: 7px 0 10px 0;
+  }
+  #about ul li .textbox h5 {
+    font-size: 16px;
+  }
+  #about ul li .txt, #about ul li .text {
+    position: absolute;
+    top: 144px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .textbox h1 {
+    font-size: 50px;
+  }
+  #about .textbox h3 {
+    font-size: 20px;
+  }
+  #about ul li .textbox {
+    width: 236px;
+  }
+  #about ul li .textbox h2 {
+    font-size: 25px;
+    margin: 7px 0 10px 0;
+  }
+  #about ul li .textbox h5 {
+    font-size: 15px;
+  }
+  #about ul li .imgbox, #about ul li .minibox {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #about ul li .txt, #about ul li .text {
+    position: absolute;
+    top: 0;
+    left: 107px;
+  }
+  #about ul li .txt {
+    text-align: left;
+  }
+  #about ul li .minibox h6 {
+    font-size: 12px;
+    margin: 7px 10px 0 21px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #about ul li .textbox {
+    width: 338px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #about ul li .textbox {
+    width: 212px;
+  }
 }
 
 #team {
