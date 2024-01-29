@@ -1,41 +1,50 @@
 #contact
-    height: 660px
     background-image: url(assestt/map-image.png)
     background-color: #212529
     background-position: center
-    background-size: cover
-    display: flex
-    justify-content: center
-    align-items: center
     .textbox
-        text-align: center
+        color: #ffff
+        margin-top: 60px
         h1
-            font-size: 45px
-            color: #ffff
+            font-size: 50px
+            margin-bottom: 16px
             font-weight: 700
         h3
             font-size: 20px
-            color: #8b8484
-            margin: 18px 0 53px 0
-    .button
-        text-align: center
+            color: #6c757d
     .from
         display: flex
         flex-direction: column
-    input
-        padding: 20px
-        margin-bottom: 24px
-    textarea
-        padding: 20px
-        border: 2px solid #d6d4d4
-        border-radius: 5px
+        margin-top: 44px
+        input
+            margin: 14px 0
+            padding: 20px 20px
+            font-size: 20px
+            font-weight: 700
+    .farm
+        display: flex
+        margin-top: 55px
+        font-size: 20px
+        textarea
+            color: #a1a1a1
+            border-radius: 5px
+            font-weight: 700
+            padding: 18px
     .btn
         background-color: #b59211
-        padding: 25px 58px
+        padding: 20px 55px
         opacity: 0.8
         h6
             font-size: 20px
             font-weight: 700
             color: #ffff
-        
-                
+    @media screen and ( max-width: 768px )
+        .textbox
+            margin-top: 15px
+
+    @media screen and ( max-width: 576px )
+        .box
+            h1
+                font-size: 45px
+            h3
+                font-size: 18px
