@@ -1,51 +1,63 @@
 header
-    height: 75px
-    position: fixed
-    z-index: 1
-    background: #212529
     .menu
-        padding-top: 20px
-        padding-bottom: 20px
-    .imgbox
-        width: 185px
-    nav
-        a
-            font-size: 20px
-            color: #d8c8c8
-            margin-left: 20px
-            &:hover
-                color: #f5cd19
-    .button
-        display: none
-    @media screen and ( max-width:576px)
-        .button
-            p
-                font-size: 12px
-        .icon
-            font-size: 10px
-    @media screen and ( max-width:400px)
-        .menu
-            padding-top: 15px
-        .button
-            p
-                font-size: 10px
-        .icon
-            font-size: 5px
-    @media screen and ( max-width:992px)
-        .button
-            display: flex
-            justify-content: space-evenly
-            align-items: center
-            width: 80px
-            height: 30px
-            border: 1px solid #9e9d9d
-            border-radius: 7px
-            opacity: 0.6
-            p
-                color: #ffff
-        .icon
-            color: #ffff
-            font-size: 15px
-        .menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 10px 0
+        height: 70px
+        background-color: #212529
+        position: fixed
+        right: 0
+        left: 0
+        z-index: 1
+        .imgbox
+            width: 140px
+            margin-left: 120px
         nav
-            opacity: 0
+            margin-right: 120px
+            a
+                font-size: 19px
+                margin: 0 20px
+                cursor: pointer
+                &:hover
+                    color: #ffcb11
+        .button
+            color: #ffff
+            display: flex
+            align-items: center
+            display: none
+            border: 1px solid #ffffffa5
+            padding: 2px
+            opacity: 0.6
+            h5
+                cursor: pointer
+                font-weight: 700
+                font-size: 17px
+            .icon
+                margin-left: 7px
+                cursor: pointer
+    @media screen and ( max-width: 576px )
+        .menu
+            height: 70px
+            .button
+                margin-right: 10px
+                padding: 6px 10px
+            .imgbox
+                margin-left: 20px
+    @media screen and ( max-width: 768px )
+        .menu
+            nav
+                display: none
+            .button
+                display: flex
+                margin-right: 30px
+            .imgbox
+                margin-left: 20px
+    @media screen and ( max-width: 992px )
+        .menu
+            nav
+                margin-right: 55px
+                a
+                    margin: 0 10px
+            .imgbox
+                margin-left: 40px
