@@ -1,6 +1,7 @@
 #services
     padding: 80px 0
     .textbox
+        padding-bottom: 50px
         h1
             font-size: 45px
             font-weight: 700
@@ -12,19 +13,17 @@
     .box
         display: flex
         justify-content: center
-        align-items: center
-        .minibox
+        .icon
             display: flex
             justify-content: center
             align-items: center
+            font-size: 60px
+            color: #ffff
             width: 130px
             height: 130px
             border-radius: 100%
             background-color: #ffc800
             margin: 20px 0 5px 0
-            .icon
-                font-size: 60px
-                color: #ffff
     .col-md-4
         .textbox
             h2
@@ -32,14 +31,15 @@
                 color: #141313
                 font-weight: 700
                 margin: 10px 0
-            h5
+            h4
                 font-size: 21px
                 color: #837680
-    @media screen and ( max-width: 992px )
-        .col-md-4
-            .textbox
-                h2
-                    font-size: 35px
-                h5
-                    font-size: 20px
-   
+    @media screen and ( max-width: 768px  )
+        .textbox
+            padding: 0 0 50px
+            h1
+                font-size: 40px
+            h2
+                font-size: 20px
+            h4
+                line-height: 1.4
