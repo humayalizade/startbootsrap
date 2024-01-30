@@ -93,42 +93,46 @@ header .menu .button .icon {
 }
 
 #welcome {
-  height: 660px;
   background-image: url(assestt/header-bg.jpg);
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
+}
+#welcome .box {
+  height: 700px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 #welcome .box .textbox h1 {
+  font-size: 40px;
   color: white;
-  font-size: 35px;
-  margin-top: 10px;
-  line-height: 1.2;
+  margin-bottom: 20px;
 }
 #welcome .box .textbox h3 {
+  font-size: 90px;
+  color: white;
+  margin: 0 0 50px 0;
   font-weight: 700;
-  color: white;
-  font-size: 80px;
-  line-height: 1.2;
 }
-#welcome .box .btn {
+#welcome .box .textbox .btn {
   background-color: #ffc800;
-}
-#welcome .box .btn:hover {
-  background-color: #d9aa00;
-}
-#welcome .box .btn h5 {
   color: white;
+  padding: 18px 40px;
+  font-size: 22px;
+  font-weight: 700;
 }
-@media screen and (max-width: 768px) {
+#welcome .box .textbox .btn h5 {
+  cursor: pointer;
+}
+#welcome .box .textbox .btn:hover {
+  background-color: #c28d07;
+}
+@media screen and (max-width: 576px) {
+  #welcome .box .textbox h1 {
+    font-size: 35px;
+  }
   #welcome .box .textbox h3 {
     font-size: 70px;
-    margin-bottom: 20px;
-  }
-  #welcome .box .btn {
-    margin: 30px 40px;
   }
 }
 
