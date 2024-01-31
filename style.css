@@ -479,9 +479,12 @@ header .menu .button .icon {
 }
 
 #contact {
-  background-image: url(assestt/map-image.png);
+  padding: 100px 0;
   background-color: #212529;
-  background-position: center;
+  background-image: url(assestt/map-image.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  overflow: hidden;
 }
 #contact .textbox {
   color: white;
@@ -507,6 +510,16 @@ header .menu .button .icon {
   font-size: 20px;
   font-weight: 700;
 }
+#contact .from input::-moz-placeholder {
+  font-size: 20px;
+  color: #ced4db;
+  font-weight: 700;
+}
+#contact .from input::placeholder {
+  font-size: 20px;
+  color: #ced4db;
+  font-weight: 700;
+}
 #contact .farm {
   display: flex;
   margin-top: 55px;
@@ -518,10 +531,25 @@ header .menu .button .icon {
   font-weight: 700;
   padding: 18px;
 }
+#contact .farm textarea::-moz-placeholder {
+  font-size: 20px;
+  color: #ced4db;
+  font-weight: 700;
+}
+#contact .farm textarea::placeholder {
+  font-size: 20px;
+  color: #ced4db;
+  font-weight: 700;
+}
 #contact .btn {
-  background-color: #b59211;
-  padding: 20px 55px;
-  opacity: 0.8;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #fecc14;
+  opacity: 60%;
+  padding: 20px 40px;
+  margin-top: 40px;
+  border-radius: 10px;
 }
 #contact .btn h6 {
   font-size: 20px;
