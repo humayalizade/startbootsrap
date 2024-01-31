@@ -1,126 +1,88 @@
 #about
     padding: 100px 0
-    .text-center
-        margin-bottom: 55px
+    .textbox
+        overflow: hidden
         h1
-            font-size: 60px
+            font-size: 48px
             font-weight: 700
-            margin-bottom: 10px
+            margin: 0 0 20px
+            &:hover
+                cursor: text
         h3
-            font-size: 20px
-            color: #828080
+            font-size: 18px
+            color: #6c757d
+            font-weight: 400
+            font-style: italic
+            margin: 0 0 50px
     .box
-        display: flex
-        align-items: center
-        margin: 0 0 100px 30px
+        margin: 50px 0
+        position: relative
         .textbox
-            width: 400px
-            margin: 0 20px
-            text-align: end
-            h2,h4
-                font-size: 30px
-                font-weight: 700
-                line-height: 1.3
-            p
-                font-size: 19px
-                color: #828080
-                line-height: 1.4
-        .imgbox
-            width: 180px
-            height: 180px
-            border: 6px solid #e9ecef
-            border-radius: 50%
-            overflow: hidden
-    .right
-        justify-content: end
-        margin: 0 21px 100px 0
-        .textbox
-            text-align: start
-    .yellow
-        display: flex
-        justify-content: center
-    .story
-        width: 180px
-        height: 180px
-        border: 6px solid #e9ecef
-        border-radius: 50%
-        background: #e9ba1f
-        .minibox
-            text-align: center
-            padding: 45px 40px
+            width: 41%
+            padding: 0 20px 20px 20px
             h2
-                font-size: 20px
+                font-size: 28px
                 font-weight: 700
-                line-height: 1.2
-                color: #ffff
-    @media screen and ( max-width: 992px )
+                line-height: 1.5
+            p
+                color: #6c757d
+                margin: 10px 0
+                font-size: 19px
+                line-height: 1.5
+        .imgbox
+            position: absolute
+            left: 43%
+            width: 170px
+            height: 170px
+            border: solid #e9ecef
+            border-width: 6px
+            border-radius: 100%
+            overflow: hidden
+    .minibox
+        width: 170px
+        height: 170px
+        border: solid #e9ecef
+        border-width: 6px
+        border-radius: 100%
+        background-color: #ffc800
+        h4
+            margin: 0 0 8px 0
+            color: #ffffff
+            font-size: 24px
+            font-weight: 700
+    @media (min-width: 992px) and (max-width: 1200px)
         .box
-            margin: 0 69px 100px 0
-            align-items: flex-start
-            .textbox
-                width: 190px
-        .yellow
-            .story
-                margin: 0 69px 100px 0
-    @media screen and ( max-width: 768px )
-        .text-center
-            h1
-                font-size: 55px
-            h3
-                font-size: 18px
-        .box
-            align-items: flex-start
-            flex-direction: row-reverse
-            margin: 0 0 70px 0
-            .textbox
-                width: 400px
-                text-align: start
             .imgbox
-                width: 140px
-                height: auto
+                width: 150px
+                height: 150px
+        .minibox
+            width: 150px
+            height: 150px
+    @media (min-width: 768px) and (max-width: 992px)
+        .box
+            .imgbox
+                width: 100px
+                height: 100px
+        .minibox
+            width: 100px
+            height: 100px
+            h4
+                font-size: 16px
+                margin: 0 0 5px 0
+    @media (max-width: 767px)
+        .box
+            margin: 0
+            .imgbox
+                width: 80px
+                height: 80px
+                left: 0%
+            .textbox
+                margin-left: 80px
+                width: 100%
+        .minibox
+            width: 80px
+            height: 80px
+            h4
+                font-size: 14px
+                font-weight: normal
                 margin: 0
-        .right
-            margin: 0 0 70px 0
-            flex-direction: row
-            .textbox
-                text-align: start
-        .yellow
-            justify-content: flex-start
-            .story
-                width: 130px
-                height: 130px
-                .minibox
-                    padding: 21px
-
-    @media screen and ( max-width: 576px )
-        .text-center
-            h1
-                font-size: 50px
-            h3
-                font-size: 18px
-        .box
-            .imgbox
-                width: 140px
-                height: auto
-            .textbox
-                h2,h4
-                    font-size: 25px
-                p
-                    font-size: 18px
-        .yellow
-            .story
-                width: 140px
-                height: 140px
-                .minibox
-                    padding: 33px 10px
-                    h2
-                        font-size: 18px
-    @media screen and ( max-width: 400px)
-        .yellow
-            .story
-                width: 91px
-                height: 91px
-                .minibox
-                    padding: 16px 10px
-                    h2
-                        font-size: 15px
