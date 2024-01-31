@@ -402,6 +402,7 @@ header .menu .button .icon {
   font-size: 20px;
   color: #8b8484;
   margin-bottom: 50px;
+  font-style: italic;
 }
 #team .textbox h3:hover {
   cursor: text;
