@@ -1,52 +1,57 @@
 #portfolio
-    padding: 80px 0
-    background: #f8f9fa
+    background-color: #f8f9fa
+    padding: 100px 0
     .textbox
-        padding-top: 40px
+        overflow: hidden
         h1
-            font-weight: 700
             font-size: 40px
+            font-weight: 700
+            margin: 0 0 20px
+            &:hover
+                cursor: text
         h3
             font-size: 18px
-            color: #8b8484
-            margin: 18px 0 53px 0
-        h2
-            font-size: 29px
-            font-weight: 700
-            line-height: 1.2
-            margin-top: 13px
-        h4
-            font-size: 20px
-            color: #838489
+            color: #6c757d
+            font-weight: 400
+            font-style: italic
+            margin: 0 0 50px
     .box
-        margin-bottom: 30px
-        background-color: #ffff
-        padding-bottom: 20px
-        .textbox
-            padding: 0
+        background-color: #ffffff
+        margin-bottom: 25px
         .imgbox
             position: relative
             .icon
-                width: 100%
                 display: flex
                 justify-content: center
                 align-items: center
-                font-size: 60px
-                color: #ffff
                 position: absolute
                 top: 0
-                bottom: 0
-                opacity: 0
-                &:hover
-                    background-color: #ffbb00
-                    opacity: 0.9
-                    transition: 0.5s
+                width: 100%
+                height: 100%
+                background-color: #f6b507
+                opacity: 0%
+                transition: 0.5s
+                font-size: 50px
+                color: #ffffff
+                cursor: pointer
+                i
                     cursor: pointer
-    @media screen and ( max-width: 576px )
+                &:hover
+                    opacity: 90%
+        .textbox
+            h2
+                font-size: 24px
+                font-weight: 700
+                margin: 20px 0 10px
+            h4
+                color: #6c757d
+                font-size: 18px
+                font-weight: 500
+                line-height: 1.5
+                font-style: italic
+                padding-bottom: 20px
+    @media (max-width: 576px)
         .box
-            width: 416px
-            margin: auto
-    @media screen and ( max-width: 400px )
-        .box
-            width: 349px
-            margin: auto
+            max-width: 420px
+            margin-left: auto
+            margin-right: auto
