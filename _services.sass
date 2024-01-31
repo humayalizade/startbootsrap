@@ -1,15 +1,18 @@
 #services
-    padding: 80px 0
+    padding: 100px 0
     .textbox
-        padding-bottom: 50px
         h1
-            font-size: 45px
+            font-size: 40px
             font-weight: 700
-            color: #110e0e
+            margin: 0 0 20px
+            &:hover
+                cursor: text
         h3
-            font-size: 20px
-            color: #7a7474
-            padding: 20px 0
+            font-size: 18px
+            color: #6c757d
+            font-weight: 400
+            font-style: italic
+            margin: 0 0 50px
     .box
         display: flex
         justify-content: center
@@ -17,29 +20,28 @@
             display: flex
             justify-content: center
             align-items: center
-            font-size: 60px
-            color: #ffff
             width: 130px
             height: 130px
-            border-radius: 100%
+            border-radius: 50%
+            font-size: 64px
+            color: #ffffff
             background-color: #ffc800
-            margin: 20px 0 5px 0
     .col-md-4
         .textbox
+            margin: 0 10px
             h2
-                font-size: 30px
-                color: #141313
+                font-size: 24px
                 font-weight: 700
-                margin: 10px 0
+                margin: 20px 0
+                &:hover
+                    cursor: text
             h4
-                font-size: 21px
-                color: #837680
-    @media screen and ( max-width: 768px  )
-        .textbox
-            padding: 0 0 50px
-            h1
-                font-size: 40px
-            h2
-                font-size: 20px
-            h4
-                line-height: 1.4
+                color: #6c757d
+                font-size: 16px
+                font-weight: 500
+                line-height: 1.5
+                margin: 20px 0
+                &:hover
+                    cursor: text
+    .box,.textbox
+        overflow: hidden

@@ -146,20 +146,22 @@ header .menu .button .icon {
 }
 
 #services {
-  padding: 80px 0;
-}
-#services .textbox {
-  padding-bottom: 50px;
+  padding: 100px 0;
 }
 #services .textbox h1 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
-  color: #110e0e;
+  margin: 0 0 20px;
+}
+#services .textbox h1:hover {
+  cursor: text;
 }
 #services .textbox h3 {
-  font-size: 20px;
-  color: #7a7474;
-  padding: 20px 0;
+  font-size: 18px;
+  color: #6c757d;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 0 50px;
 }
 #services .box {
   display: flex;
@@ -169,37 +171,36 @@ header .menu .button .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 60px;
-  color: white;
   width: 130px;
   height: 130px;
-  border-radius: 100%;
+  border-radius: 50%;
+  font-size: 64px;
+  color: #ffffff;
   background-color: #ffc800;
-  margin: 20px 0 5px 0;
+}
+#services .col-md-4 .textbox {
+  margin: 0 10px;
 }
 #services .col-md-4 .textbox h2 {
-  font-size: 30px;
-  color: #141313;
+  font-size: 24px;
   font-weight: 700;
-  margin: 10px 0;
+  margin: 20px 0;
+}
+#services .col-md-4 .textbox h2:hover {
+  cursor: text;
 }
 #services .col-md-4 .textbox h4 {
-  font-size: 21px;
-  color: #837680;
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 20px 0;
 }
-@media screen and (max-width: 768px) {
-  #services .textbox {
-    padding: 0 0 50px;
-  }
-  #services .textbox h1 {
-    font-size: 40px;
-  }
-  #services .textbox h2 {
-    font-size: 20px;
-  }
-  #services .textbox h4 {
-    line-height: 1.4;
-  }
+#services .col-md-4 .textbox h4:hover {
+  cursor: text;
+}
+#services .box, #services .textbox {
+  overflow: hidden;
 }
 
 #portfolio {
