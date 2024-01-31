@@ -12,93 +12,65 @@ header {
 }
 
 header .menu {
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
-  height: 70px;
-  background-color: #212529;
+  padding: 0 8%;
   position: fixed;
-  right: 0;
-  left: 0;
   z-index: 1;
+  width: 100%;
+  height: 80px;
+  left: 0%;
+  background-color: #212529;
 }
 header .menu .imgbox {
   width: 140px;
-  margin-left: 120px;
-}
-header .menu nav {
-  margin-right: 120px;
 }
 header .menu nav a {
-  font-size: 19px;
-  margin: 0 20px;
-  cursor: pointer;
+  font-weight: 300;
+  margin-left: 30px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  transition: 0.2s;
 }
 header .menu nav a:hover {
-  color: #ffcb11;
+  cursor: pointer;
+  color: #ffc800;
 }
 header .menu .button {
-  color: white;
-  display: flex;
-  align-items: center;
   display: none;
-  border: 1px solid rgba(255, 255, 255, 0.6470588235);
-  padding: 2px;
-  opacity: 0.6;
 }
-header .menu .button h5 {
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 17px;
+@media (max-width: 992px) {
+  header nav {
+    display: none;
+  }
+  header .menu .button {
+    display: flex;
+    color: #979d9e;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 12px;
+    border: solid #5a5e65;
+    border-width: 1px;
+    border-radius: 6px;
+  }
+  header .menu .button h1 {
+    margin-right: 6px;
+  }
 }
-header .menu .button .icon {
-  margin-left: 7px;
-  cursor: pointer;
-}
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) and (min-width: 280px) {
   header .menu {
-    height: 70px;
-  }
-  header .menu .button {
-    margin-right: 10px;
-    padding: 6px 10px;
-    border-radius: 5px;
-  }
-  header .menu .imgbox {
-    margin-left: 20px;
+    padding: 0 20px;
   }
 }
-@media screen and (max-width: 768px) {
-  header .menu nav {
-    display: none;
-  }
-  header .menu .button {
-    display: flex;
-    margin-right: 30px;
-    padding: 6px 10px;
-    border-radius: 5px;
+@media (max-width: 280px) {
+  header .menu {
+    height: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
   header .menu .imgbox {
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 992px) {
-  header .menu nav {
-    display: none;
-    margin-right: 55px;
-  }
-  header .menu nav a {
-    margin: 0 10px;
-  }
-  header .menu .button {
-    display: flex;
-    margin-right: 30px;
-    padding: 6px 10px;
-    border-radius: 5px;
-  }
-  header .menu .imgbox {
-    margin-left: 40px;
+    margin-bottom: 10px;
   }
 }
 
