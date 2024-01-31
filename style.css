@@ -103,47 +103,46 @@ header .menu .button .icon {
 }
 
 #welcome {
+  padding: 50px 0;
   background-image: url(assestt/header-bg.jpg);
-  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 #welcome .box {
-  height: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 150px;
 }
-#welcome .box .textbox h1 {
-  font-size: 40px;
-  color: white;
-  margin-bottom: 20px;
+#welcome .box h1 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: italic;
 }
-#welcome .box .textbox h3 {
-  font-size: 90px;
-  color: white;
-  margin: 0 0 50px 0;
+#welcome .box h2 {
+  color: #ffffff;
+  font-size: 72px;
   font-weight: 700;
+  margin: 40px 0;
 }
-#welcome .box .textbox .btn {
-  background-color: #ffc800;
-  color: white;
-  padding: 18px 40px;
+#welcome .box h2:hover {
+  cursor: text;
+}
+#welcome .box .btn {
+  border-radius: 8px;
   font-size: 22px;
   font-weight: 700;
+  color: #ffffff;
+  padding: 20px 50px;
+  background-color: #dfb314;
+  transition: 0.2s;
 }
-#welcome .box .textbox .btn h5 {
+#welcome .box .btn:hover {
+  background-color: #d9aa00;
+}
+#welcome .box .btn h5 {
   cursor: pointer;
-}
-#welcome .box .textbox .btn:hover {
-  background-color: #c28d07;
-}
-@media screen and (max-width: 576px) {
-  #welcome .box .textbox h1 {
-    font-size: 35px;
-  }
-  #welcome .box .textbox h3 {
-    font-size: 70px;
-  }
 }
 
 #services {
