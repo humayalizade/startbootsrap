@@ -465,21 +465,17 @@ header .menu .button .icon {
 #google {
   padding: 50px 0;
 }
-#google .box {
-  width: 250px;
+#google img {
+  cursor: pointer;
 }
-#google .box .imgbox {
+#google .imgbox {
   width: 180px;
-  margin: auto;
 }
-#google .bmg .imgbox {
+#google .facebook {
+  width: 150px;
+}
+#google .google, #google .ibm {
   width: 110px;
-  margin: auto;
-}
-@media screen and (max-width: 575px) {
-  #google .box {
-    margin: auto;
-  }
 }
 
 #contact {
